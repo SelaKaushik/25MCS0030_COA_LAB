@@ -131,11 +131,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="00_cover_screen.h" />
     <ClInclude Include="030_wsc_for_pp1.h" />
     <ClInclude Include="031_wsc_for_num_square_prl.h" />
     <ClInclude Include="031_wsc_for_num_square_srl.h" />
     <ClInclude Include="040_calculator_functions_pp1.h" />
     <ClInclude Include="040_wsc_sections_pp1.h" />
+    <ClInclude Include="050_scheduling_dynamic.h" />
+    <ClInclude Include="050_scheduling_guided.h" />
+    <ClInclude Include="050_scheduling_static.h" />
+    <ClInclude Include="060_Data_env_constructs.h" />
+    <ClInclude Include="070_critical_section.h" />
+    <ClInclude Include="070_reduction_clause.h" />
+    <ClInclude Include="BakeryOrderSystem_OpenMPScheduling.h" />
+    <ClInclude Include="colours.h" />
     <ClInclude Include="fn_helloworld_prl.h" />
     <ClInclude Include="fn_helloworld_srl.h" />
     <ClInclude Include="mnudrvprg_010_parallel_construct.h" />
@@ -143,6 +152,7 @@
     <ClInclude Include="ret_et_helloworld.h" />
     <ClInclude Include="rt_et_helloworld_tid.h" />
     <ClInclude Include="run_time_environment_routines.h" />
+    <ClInclude Include="Simulating_DeckOfCards.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

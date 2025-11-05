@@ -56,5 +56,35 @@
     <ClInclude Include="040_wsc_sections_pp1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="050_scheduling_static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="050_scheduling_dynamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="050_scheduling_guided.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="060_Data_env_constructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="colours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="00_cover_screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BakeryOrderSystem_OpenMPScheduling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulating_DeckOfCards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="070_critical_section.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="070_reduction_clause.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

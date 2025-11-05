@@ -16,7 +16,7 @@ int  fn_mnudrvprg_010_parallel_construct(){
 		scanf_s("%d", &choice);
 		switch (choice) {
 		case 0:
-			printf("You opted to exit pro gram\n");
+			printf("You opted to exit program\n");
 			exit(0);
 			break;
 
