@@ -149,6 +149,7 @@
     <ClInclude Include="fn_helloworld_srl.h" />
     <ClInclude Include="mnudrvprg_010_parallel_construct.h" />
     <ClInclude Include="mnudrvprg_020_runtime_environment_routines.h" />
+    <ClInclude Include="mnudrvprg_050_scheduling_clauses.h" />
     <ClInclude Include="ret_et_helloworld.h" />
     <ClInclude Include="rt_et_helloworld_tid.h" />
     <ClInclude Include="run_time_environment_routines.h" />

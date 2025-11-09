@@ -27,7 +27,7 @@ void fn_displayResults_prl(int square[]) {
 }
 
 
-int fn_num_square_prl() {
+void fn_num_square_prl() {
 	int arr[N], square[N];
 	double start = omp_get_wtime();
 	fn_InitializeArray(arr);
@@ -36,6 +36,6 @@ int fn_num_square_prl() {
 	double end = omp_get_wtime();
 	double exe_time_prl = end - start;
 	
-	printf("\nTime taken for parallel execution: %f sec", exe_time_prl);
-	return 0;
+	printf("\nTime taken for parallel execution: %f sec\n", exe_time_prl);
+	printf("\n");
 }

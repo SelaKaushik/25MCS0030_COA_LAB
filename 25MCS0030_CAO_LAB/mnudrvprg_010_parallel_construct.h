@@ -1,9 +1,8 @@
 #include "stdio.h"
 #include "fn_helloworld_srl.h"
 #include "fn_helloworld_prl.h"
-#include <cstdlib>
 
-int  fn_mnudrvprg_010_parallel_construct(){
+int fn_mnudrvprg_010_parallel_construct(){
 
 	int choice;
 	while (1) {
@@ -17,17 +16,19 @@ int  fn_mnudrvprg_010_parallel_construct(){
 		switch (choice) {
 		case 0:
 			printf("You opted to exit program\n");
-			exit(0);
+			return 0;
 			break;
 
 		case 1:
 			printf("This is output of Hello World serial program\n");
 			fn_helloworld_srl();
+			printf("\n");
 			break;
 
 		case 2:
 			printf("This is output of Hello World parallel program\n");
 			fn_helloworld_prl();
+			printf("\n");
 			break;
 
 		default:
@@ -35,6 +36,5 @@ int  fn_mnudrvprg_010_parallel_construct(){
 			break;
 		}
 	}
-
 	return 0;
 }

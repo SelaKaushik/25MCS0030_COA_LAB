@@ -3,12 +3,12 @@
 
 void fn_critical_section_example() {
     int sum = 0;   // Shared variable
-    int N = 10;
+    int n = 10;
 
     printf("=== OpenMP Critical Section Example ===\n");
 
 #pragma omp parallel for
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= n; i++) {
         // Unsafe update could cause a race condition without 'critical'
 #pragma omp critical
         {
@@ -17,5 +17,5 @@ void fn_critical_section_example() {
         }
     }
 
-    printf("\nFinal Sum (1 to %d) = %d\n", N, sum);
+    printf("\nFinal Sum (1 to %d) = %d\n", n, sum);
 }

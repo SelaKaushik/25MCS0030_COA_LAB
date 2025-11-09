@@ -1,7 +1,6 @@
 #include "stdio.h"
 #include "ret_et_helloworld.h"
 #include "rt_et_helloworld_tid.h";
-#include <cstdlib>
 
 int fn_mnudrvprg_020_runtime_environment_routines() {
 	int choice;
@@ -16,7 +15,7 @@ int fn_mnudrvprg_020_runtime_environment_routines() {
 		switch (choice) {
 		case 0:
 			printf("You opted to exit program\n");
-			exit(0);
+			return 0;
 			break;
 
 		case 1:
@@ -44,6 +43,5 @@ int fn_mnudrvprg_020_runtime_environment_routines() {
 			break;
 		}
 	}
-
 	return 0;
 }

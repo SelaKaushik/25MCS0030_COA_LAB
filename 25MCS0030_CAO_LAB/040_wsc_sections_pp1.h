@@ -5,6 +5,7 @@
 void fn_wsc_sections_pp1_srl() {
 	int a = 5, b = 3;
 	int sum, difference;
+	printf("Output for Serial Sections Construct:\n");
 	double start = omp_get_wtime();
 	sum = fn_calculator_add(a,b);
 	printf("Addition: %d + %d = %d by ThreadID %d\n", a, b, sum, omp_get_thread_num());
@@ -21,6 +22,7 @@ void fn_wsc_sections_pp1_srl() {
 void fn_wsc_sections_pp1_prl() {
 	int a = 25, b = 37;
 	int sum, difference;
+	printf("Output for Parallel Sections Construct:\n");
 	double start = omp_get_wtime();
 	#pragma omp parallel sections
 	{
@@ -38,6 +40,5 @@ void fn_wsc_sections_pp1_prl() {
 	}
 	double end = omp_get_wtime();
 	printf("Execution time of serial: %f sec", end - start);
+	printf("\n");
 }
-
-

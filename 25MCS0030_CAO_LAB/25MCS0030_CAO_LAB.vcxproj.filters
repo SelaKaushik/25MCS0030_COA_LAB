@@ -86,5 +86,8 @@
     <ClInclude Include="070_reduction_clause.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="mnudrvprg_050_scheduling_clauses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

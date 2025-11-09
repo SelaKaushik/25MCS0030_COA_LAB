@@ -22,7 +22,7 @@ void fn_displayResults_srl(int square[]) {
     }
 }
 
-int fn_num_square() {
+void fn_num_square_srl() {
     int a[N], square[N];
 	double start = omp_get_wtime();
     fn_initializeArray(a);
@@ -32,6 +32,6 @@ int fn_num_square() {
 	double time_taken = end - start;
     double exe_time_srl = end - start;
 	printf("\nTime taken for serial execution: %f sec\n\n", exe_time_srl);
-    return 0;
+    printf("\n");
 }
 

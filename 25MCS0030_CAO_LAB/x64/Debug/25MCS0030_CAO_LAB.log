@@ -1,2 +1,23 @@
 ﻿  25MCS0030_main.cpp
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\mnudrvprg_020_runtime_environment_routines.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file '25MCS0030_main.cpp')
+  
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\060_data_env_constructs.h(25,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '25MCS0030_main.cpp')
+  
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\060_data_env_constructs.h(26,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '25MCS0030_main.cpp')
+  
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\BakeryOrderSystem_OpenMPScheduling.h(50,6): warning C4101: 'handled_dynamic': unreferenced local variable
+  (compiling source file '25MCS0030_main.cpp')
+  
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\BakeryOrderSystem_OpenMPScheduling.h(51,6): warning C4101: 'handled_guided': unreferenced local variable
+  (compiling source file '25MCS0030_main.cpp')
+  
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\BakeryOrderSystem_OpenMPScheduling.h(49,6): warning C4101: 'handled_static': unreferenced local variable
+  (compiling source file '25MCS0030_main.cpp')
+  
+C:\Users\selam\source\repos\25MCS0030_CAO_LAB\25MCS0030_CAO_LAB\Simulating_DeckOfCards.h(17,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file '25MCS0030_main.cpp')
+  
   25MCS0030_CAO_LAB.vcxproj -> C:\Users\selam\source\repos\25MCS0030_CAO_LAB\x64\Debug\25MCS0030_CAO_LAB.exe
